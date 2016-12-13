@@ -31,4 +31,13 @@ body {
     font-size: 3em;
     background-color: bisque;
     color: #3C3744;
+    margin-top: 0;
+}
+.desk p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.head {
+    text-align: center;
+    font-size: 2em;
 }
