@@ -56,7 +56,7 @@ body {
     font-size: 45px;
     color: #2FC4BF;
     letter-spacing: 3px;
-    border-bottom: 1px dashed #2FC4BF;
+    border-bottom: 1px dashed #2FC4BF !important;
 }
 .text {
     text-align: center;
