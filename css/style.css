@@ -5,21 +5,16 @@ body {
 .container {
     margin-left: 10%;
     margin-right: 10%;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
     box-shadow: 0px 0px 100px 20px black;
 }
-.subcontainer .jumbotron {
+.jumbotron {
     background-image: url(../pic/BaFrInds_Head.jpg);
     background-size: 600px 340px;
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
+    margin: auto;
     width: 90%;
     height: 400px;
-    margin-left: 30px;
-    margin-right: 30px; 
 }
 .desk {
     font-family: 'Lora', serif;
@@ -59,26 +54,10 @@ body {
     border-bottom: 1px dashed #2FC4BF !important;
 }
 .text {
-    text-align: center;
     font-family: 'Open Sans';
     font-weight: 300;
     color: #2FC4BF;
-}
-.subcontainer .left {
-    float: left;
-}
-.subcontainer {
-    position: relative;
-}
-.subcontainer .right {
-    float: right;
-}
-.subcontainer .right,.left {
-    background-color: black;
-    width: 1%;
-    display: inline-block;
-    position: relative;
-    height: 400px;
+    padding-left: 30px;
 }
 a:link, a:visited {
     border: 1;
