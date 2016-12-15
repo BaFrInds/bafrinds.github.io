@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    
+
 }
 .container {
     margin-left: 10%;
@@ -15,7 +15,7 @@ body {
     background-position: center;
     margin: auto;
     width: 90%;
-    height: 400px; 
+    height: 400px;
 }
 .desk {
     font-family: 'Lora', serif;
@@ -74,7 +74,10 @@ li a:hover, li a:active {
 .thanks {
     text-align: right;
     background-color: #3C3744;
-    padding-bottom: 0;
+}
+.thanks p {
+  margin: 0;
+  padding: 0 25px 15px 0;
 }
 .thanks a {
     color: #2FC4BF;
