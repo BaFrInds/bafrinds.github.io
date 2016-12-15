@@ -6,6 +6,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     box-shadow: 0px 0px 100px 20px black;
+    color: #2FC4BF;
 }
 .jumbotron {
     background-image: url(../pic/BaFrInds_Head.jpg);
@@ -14,7 +15,7 @@ body {
     background-position: center;
     margin: auto;
     width: 90%;
-    height: 400px;
+    height: 400px; 
 }
 .desk {
     font-family: 'Lora', serif;
@@ -25,13 +26,12 @@ body {
 .projects {
     padding-bottom: 20%;
     background-color: #3C3744;
-    color: white;
+    margin-bottom: 0;
 }
 .projects h1 {
     text-align: center;
     font-size: 3em;
     background-color: #3C3744;
-    color: #2FC4BF;
     margin-top: 0;
     font-weight: 400;
     font-family: 'Pacifico', cursive;
@@ -49,28 +49,34 @@ body {
     font-weight: 400;
     font-family: 'Pacifico', cursive;
     font-size: 45px;
-    color: #2FC4BF;
     letter-spacing: 3px;
     border-bottom: 1px dashed #2FC4BF !important;
 }
 .text {
     font-family: 'Open Sans';
     font-weight: 300;
-    color: #2FC4BF;
     padding-left: 30px;
 }
-a:link, a:visited {
+li a:link, li a:visited {
     border: 1;
     border-color: #2FC4BF;
-    color: #2FC4BF;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Lobster', cursive;
+    color: #2FC4BF;
 }
-
-
-a:hover, a:active {
+li a:hover, li a:active {
     background-color: #1B998B;
+    color: #2FC4BF;
+}
+.thanks {
+    text-align: right;
+    background-color: #3C3744;
+    padding-bottom: 0;
+}
+.thanks a {
+    color: #2FC4BF;
+    text-decoration: none;
 }
