@@ -56,6 +56,8 @@ body {
     font-family: 'Open Sans';
     font-weight: 300;
     padding-left: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
 }
 li a:link, li a:visited {
     border: 1;
